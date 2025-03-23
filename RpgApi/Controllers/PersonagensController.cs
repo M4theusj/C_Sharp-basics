@@ -8,6 +8,15 @@ using Microsoft.Identity.Client;
 using RpgApi.Data;
 using RpgApi.Models;
 
+// dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+// dotnet tool install --global dotnet-ef
+// dotnet add package Microsoft.EntityFrameworkCore.Design
+// Data/DataContext.cs
+// AppSettings.Json
+// Program.cs
+// migrations add / dotnet ef migrations add InitialCreate
+// dotnet ef database update
+
 namespace RpgApi.Controllers
 {   
 
